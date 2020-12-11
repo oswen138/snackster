@@ -25,6 +25,7 @@ body {
 .right {
   right: 0;
   width: 63%;
+  z-index: 1;
   background-color: #722620;
 }
 
@@ -42,3 +43,18 @@ body {
   width: 150px;
   border-radius: 50%;
 }
+
+/*styling for homepage cup*/
+.front img {
+  z-index: 100;
+  width: 150px;
+  border-radius: 150%;
+  position: relative;
+  top: 30%;
+  left: 100%;
+  right: 150%
+  transform: translate(-200%, -30%, -20%);
+
+}
+
+
