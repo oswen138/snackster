@@ -18,14 +18,14 @@ body {
 .left {
   left: 0;
   width: 37%;
-  background-color: #f2bc94;
+  background-color: #e2d8cc;
 }
 
 /* Control the right side */
 .right {
   right: 0;
   width: 63%;
-  background-color: #722620;
+  background-color: #eebf85;
 }
 
 /* If you want the content centered horizontally and vertically */
@@ -67,4 +67,19 @@ body {
 #img1 {
   height: 200px;
   width: 200px;
+}
+
+/* for the duck */
+.duck {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+/* for the duck */
+.duck img {
+  width: 150px;
+  border-radius: 50%;
 }
