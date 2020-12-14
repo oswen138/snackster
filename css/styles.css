@@ -105,6 +105,7 @@ header {
 
 .header__menu > .header__menu-item {
   font-size: 10vh;
+  list-style-type: none;
 }
 
 .header__menu > .header__menu-item:not(:last-of-type) {
@@ -115,12 +116,10 @@ header {
   font-weight: bold;
   color: white;
   text-decoration: none;
-  list-style-type: none;
 }
 
 .header__menu-item a:hover {
   font-style: italic;
-  list-style-type: none;
 }
 
 
