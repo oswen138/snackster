@@ -12,6 +12,7 @@ body {
   background-color: #ffdb00;
   font-family: 'Roboto', Helvetica, sans-serif;
   font-size: 1rem;
+  color: white;
   line-height: 1.2;
   overflow: hidden;
   display: flex;
@@ -45,7 +46,7 @@ header {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: black;
+  background-color: #5b7cae;
   border: 0;
   cursor: pointer;
   position: absolute;
@@ -75,19 +76,8 @@ header {
   }
 }
 
-h1 {
-  font-size: 3rem;
-  font-weight: normal;
-  margin: 0;
-  margin-bottom: 3rem;
-}
-
-footer svg {
-  width: 15%;
-}
-
 .header__nav {
-  background-color: black;
+  background-color: #5b7cae;
   position: fixed;
   overflow: hidden;
   z-index: 3;
@@ -125,10 +115,12 @@ footer svg {
   font-weight: bold;
   color: white;
   text-decoration: none;
+  list-style-type: none;
 }
 
 .header__menu-item a:hover {
   font-style: italic;
+  list-style-type: none;
 }
 
 
