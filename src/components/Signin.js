@@ -3,7 +3,7 @@ import firebase from "firebase/app";
 
   {/* Signup form lives here */}
 
-  <h1>Sign In</h1>
+  <h1>hello</h1>
   <form onSubmit={doSignIn}>
     <input
       type='text'

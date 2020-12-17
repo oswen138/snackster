@@ -5,7 +5,13 @@
   <title>Snackster</title>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="https://cdn.jsdelivr.net/npm/circular-revealer@0.0.8/dist/index.iife.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
+  <script> 
+    $(function(){
+      $("#includedContent").load("i.html"); 
+    });
+    </script> 
 </head>
 
 <!-- navbar -->
@@ -20,7 +26,7 @@
             <img src="photos/mandela.svg"/>
           </a>
           <ul class="header__menu">
-              <li class="header__menu-item"><a href="#">Sign In</a></li>  <Link to="/signin">Sign In</Link>
+              <li class="header__menu-item"><a href="/pages/signin.html">Register/Sign In</a></li>  
               <li class="header__menu-item"><a href="#">Forum</a></li>
               <li class="header__menu-item"><a href="#">Journal</a></li>
               <li class="header__menu-item"><a href="#">Board</a></li>
@@ -29,6 +35,9 @@
       </nav>
   </div>
 </header>
+
+
+
 
 <body>
 
@@ -49,6 +58,8 @@
     <p>"Tea philosophy is cheese and pretzels"</p>
   </div>
 </div>
+
+
 
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
